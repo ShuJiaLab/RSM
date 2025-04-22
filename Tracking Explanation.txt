@@ -1,0 +1,3 @@
+The following is a quick explanation of how the tracking works:
+
+Precise tracking is done through a template matching algorithm that utilizes a correlation coefficient as the metric. This correlation coefficient is based on a zero-mean normalized cross correlation, which is more robust against strong light intensity differences between the region-of-interest template and the search image because the average value of the pixels is subtracted from both the template and the search image prior to performing cross correlation. The result from this initial tracking can then be further corrected and smoothed out through a linear fitting along its axis of motion.  
