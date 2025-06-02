@@ -3,7 +3,7 @@ This project focuses on the reconstruction of data obtained from the Resonant Mu
 # Steps:
 
 ## Step 1: Mask Calibration
-This step generates calibration masks necessary for accurate data processing. Proper mask calibration is crucial to ensure reliable reconstruction.
+This step generates calibration masks necessary for accurate data processing. Proper mask calibration is crucial to ensure reliable reconstruction. The Step 1 mask calibration MATLAB code is designed for data with a uniform FociMap. For data with a non-uniform foci mask, a corrected FociMap can be generated using the provided 'CorrectedFociMap' script, available in both MATLAB and Python versions. This script imports the raw calibration image and outputs a corrected, non-uniform FociMap.
 
 ## Step 2: Data Alignment
 Data alignment is a key component of the reconstruction process. Beginning with this step, there will be two codebase options: (1) MATLAB and (2) Python. Both the MATLAB and Python code utilize a similar procedure for this step; however, there are certain differences. 
